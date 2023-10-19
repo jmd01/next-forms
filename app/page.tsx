@@ -9,6 +9,7 @@ export default async function Home() {
   let data = await sql`SELECT * FROM todos`
   const { rows: todos } = data
 
+  console.log(todos)
   return (
     <main>
       <h1 className="sr-only">Todos</h1>
