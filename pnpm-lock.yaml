@@ -19,13 +19,13 @@ dependencies:
     version: 0.4.1
   next:
     specifier: canary
-    version: 13.5.7-canary.9(react-dom@0.0.0-experimental-9617d39ec-20231018)(react@0.0.0-experimental-9617d39ec-20231018)
+    version: 13.5.7-canary.9(react-dom@18.2.0)(react@18.2.0)
   react:
-    specifier: experimental
-    version: 0.0.0-experimental-9617d39ec-20231018
+    specifier: 18.2.0
+    version: 18.2.0
   react-dom:
-    specifier: experimental
-    version: 0.0.0-experimental-9617d39ec-20231018(react@0.0.0-experimental-9617d39ec-20231018)
+    specifier: 18.2.0
+    version: 18.2.0(react@18.2.0)
   typescript:
     specifier: 5.1.6
     version: 5.1.6
@@ -228,7 +228,7 @@ packages:
     hasBin: true
     dev: false
 
-  /next@13.5.7-canary.9(react-dom@0.0.0-experimental-9617d39ec-20231018)(react@0.0.0-experimental-9617d39ec-20231018):
+  /next@13.5.7-canary.9(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-dQ5amkzwZu0XL9E1PZK3ms5k5XJzdaOKaVB9+7ItSTGnvzlCH1vJVuQWXIczqcYXx7tYD60t+i7e58JII9JJgQ==}
     engines: {node: '>=18.17.0'}
     hasBin: true
@@ -248,9 +248,9 @@ packages:
       busboy: 1.6.0
       caniuse-lite: 1.0.30001551
       postcss: 8.4.31
-      react: 0.0.0-experimental-9617d39ec-20231018
-      react-dom: 0.0.0-experimental-9617d39ec-20231018(react@0.0.0-experimental-9617d39ec-20231018)
-      styled-jsx: 5.1.1(react@0.0.0-experimental-9617d39ec-20231018)
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      styled-jsx: 5.1.1(react@18.2.0)
       watchpack: 2.4.0
     optionalDependencies:
       '@next/swc-darwin-arm64': 13.5.7-canary.9
@@ -327,25 +327,25 @@ packages:
       xtend: 4.0.2
     dev: false
 
-  /react-dom@0.0.0-experimental-9617d39ec-20231018(react@0.0.0-experimental-9617d39ec-20231018):
-    resolution: {integrity: sha512-lURee3/aNbSVhJnQphlGSeMdeXdFqyk8btzDS7vmZgdsUmNlSpjHza/YXLmu1Vy0Gz+nAdTypgQSaOp5dXi18Q==}
+  /react-dom@18.2.0(react@18.2.0):
+    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
     peerDependencies:
-      react: 0.0.0-experimental-9617d39ec-20231018
+      react: ^18.2.0
     dependencies:
       loose-envify: 1.4.0
-      react: 0.0.0-experimental-9617d39ec-20231018
-      scheduler: 0.0.0-experimental-9617d39ec-20231018
+      react: 18.2.0
+      scheduler: 0.23.0
     dev: false
 
-  /react@0.0.0-experimental-9617d39ec-20231018:
-    resolution: {integrity: sha512-AFy4wr80aAhuYkX8M5bfKMH3+tg7+Atnw48A5obMLxW1PilwAq9V6lpAMvrHjqZYQdW3Y8zlmIDly8Sxu9tlnw==}
+  /react@18.2.0:
+    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
     dev: false
 
-  /scheduler@0.0.0-experimental-9617d39ec-20231018:
-    resolution: {integrity: sha512-JKgE74VGSFDhHMoVbyTHZGusjkfkAsWndZmqvtYF9/LFGI8ohR1u1zkXcYTBj06h9ndCcFCaXXKXD9U7fs9Emg==}
+  /scheduler@0.23.0:
+    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
     dependencies:
       loose-envify: 1.4.0
     dev: false
@@ -360,7 +360,7 @@ packages:
     engines: {node: '>=10.0.0'}
     dev: false
 
-  /styled-jsx@5.1.1(react@0.0.0-experimental-9617d39ec-20231018):
+  /styled-jsx@5.1.1(react@18.2.0):
     resolution: {integrity: sha512-pW7uC1l4mBZ8ugbiZrcIsiIvVx1UmTfw7UkC3Um2tmfUq9Bhk8IiyEIPl6F8agHgjzku6j0xQEZbfA5uSgSaCw==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
@@ -374,7 +374,7 @@ packages:
         optional: true
     dependencies:
       client-only: 0.0.1
-      react: 0.0.0-experimental-9617d39ec-20231018
+      react: 18.2.0
     dev: false
 
   /tslib@2.6.2:
